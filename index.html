@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Робот-помощник Олег</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="game-card">
+        <h1 id="characterName">Олег</h1>
+
+        <div class="character-display">
+            <img src="robot.png" alt="Робот Олег" id="characterImage" class="character-avatar">
+        </div>
+
+        <div class="stats-board">
+            <div class="stat-row">
+                Здоровье: <span id="healthVal">100</span>
+                <div class="progress-bg">
+                    <div class="progress-fill fill-health" id="healthFill"></div>
+                </div>
+            </div>
+
+            <div class="stat-row">
+                Энергия: <span id="energyVal">100</span>
+                <div class="progress-bg">
+                    <div class="progress-fill fill-energy" id="energyFill"></div>
+                </div>
+            </div>
+
+            <div class="stat-row">
+                Сытость: <span id="foodVal">100</span>
+                <div class="progress-bg">
+                    <div class="progress-fill fill-food" id="foodFill"></div>
+                </div>
+            </div>
+
+            <div class="stat-row">
+                Вода: <span id="waterVal">100</span>
+                <div class="progress-bg">
+                    <div class="progress-fill fill-water" id="waterFill"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="action-panel">
+            <button id="btnEat" class="btn">Поесть</button>
+            <button id="btnDrink" class="btn">Попить</button>
+            <button id="btnRest" class="btn">Отдохнуть</button>
+        </div>
+
+        <div class="status-console" id="statusConsole">
+            Система инициализирована. Олег готов к работе.
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

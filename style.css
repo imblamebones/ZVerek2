@@ -1,0 +1,97 @@
+body {
+    font-family: sans-serif;
+    color: #000;
+    margin: 20px;
+}
+
+.game-card {
+    border: 1px solid #999;
+    padding: 15px;
+    width: 320px;
+    background-color: #fcfcfc;
+}
+
+h1 {
+    margin-top: 0;
+    font-size: 20px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 5px;
+}
+
+.character-avatar {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 15px;
+    display: block;
+}
+
+.character-avatar.dead {
+    transform: rotate(90deg);
+}
+
+.stats-board {
+    margin-bottom: 20px;
+}
+
+.stat-row {
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.progress-bg {
+    width: 100%;
+    background-color: #ddd;
+    border: 1px solid #999;
+    height: 14px;
+    margin-top: 2px;
+}
+
+.progress-fill {
+    height: 100%;
+}
+
+.fill-health {
+    background-color: red;
+}
+
+.fill-energy {
+    background-color: yellow;
+}
+
+.fill-food {
+    background-color: green;
+}
+
+.fill-water {
+    background-color: blue;
+}
+
+.action-panel {
+    margin-bottom: 15px;
+}
+
+.btn {
+    padding: 6px 12px;
+    border: 1px solid #666;
+    background-color: #eee;
+    color: #000;
+    cursor: pointer;
+    font-family: sans-serif;
+}
+
+.btn:active:not(:disabled) {
+    background-color: #ccc;
+}
+
+.btn:disabled {
+    color: #999;
+    cursor: not-allowed;
+}
+
+.status-console {
+    border: 1px solid #999;
+    background-color: #fff;
+    padding: 8px;
+    font-size: 13px;
+    font-family: monospace;
+}
